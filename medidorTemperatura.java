@@ -1,15 +1,14 @@
+import java.util.Scanner;
 public class medidorTemperatura {
-    
-}import java.util.Scanner;
-
-public class MedidorTemperatura {
     public static void main(String[] args) {
+
         // Criação de um scanner para receber a entrada do usuário
         Scanner scanner = new Scanner(System.in);
-        
+        double temperatura;
+
         // Solicita ao usuário que informe a temperatura atual em Celsius
         System.out.println("Por favor, informe a temperatura atual em Celsius:");
-        double temperatura = scanner.nextDouble();
+        temperatura = scanner.nextDouble();
         
         // Avalia a temperatura informada e exibe a mensagem correspondente
         if (temperatura < 0) {
